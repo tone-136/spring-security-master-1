@@ -44,4 +44,8 @@ public class EmployeeController {
         employeeDao.deleteById(id);
         return "redirect:/employees";
     }
+
+    public String delete(){
+        return "";
+    }
 }
